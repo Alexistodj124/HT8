@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 public class archivo {
+    //Creacion de la clase archivo
     private ArrayList<proceso> lista;
 
     public archivo(String nombre) {
@@ -18,7 +19,7 @@ public class archivo {
     }
 
     public ArrayList<proceso> leerArchivo() throws IOException {
-        File archivo = new File("procesos.txt");
+        File archivo = new File("procesos.txt");// Lectura del archivo para ejecutar el programa
         FileReader lector = new FileReader(archivo);
         try (BufferedReader lectorBuffer = new BufferedReader(lector)) {
             String linea;
