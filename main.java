@@ -2,9 +2,9 @@ import java.io.*;
 import java.util.*;
 
 
-public class main {
+public class main { //Creacion de la clase main
     public static void main(String[] args) throws IOException {
-        archivo arch = new archivo("procesos.txt");
+        archivo arch = new archivo("procesos.txt"); //Lee el archivo
         ArrayList<proceso> lista=arch.leerArchivo();
         ArrayList<String> listaT=new ArrayList<String>();
 
