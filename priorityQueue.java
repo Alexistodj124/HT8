@@ -1,4 +1,5 @@
 public interface priorityQueue<E extends Comparable<E>> {
+    //Creacion de la interfance PriorityQueue
     public E getFirst();
     public boolean isEmpty();
     public int size();
