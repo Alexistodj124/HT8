@@ -1,5 +1,5 @@
 public class proceso {
-#Creacion de las clases 
+//Creacion de las clases 
     private String Proceso;
     private String Usuario;
     private int Nice;
@@ -10,7 +10,7 @@ public class proceso {
         Nice = nice;
         PR = pR;
     }
- #Metodos de la clase proceso   
+ //Metodos de la clase proceso   
     public String getProceso() {
         return Proceso;
     }
