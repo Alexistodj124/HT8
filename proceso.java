@@ -34,7 +34,7 @@ public class proceso {
         PR = pR;
     }
     public String toString() {
-        int pr = 20 + Nice;
+        int pr = 120 + Nice;
         return Proceso + "," + Usuario + "," + Nice + ",PR=" + pr;
     }
 }
