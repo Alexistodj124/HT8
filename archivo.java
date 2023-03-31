@@ -19,7 +19,7 @@ public class archivo {
     }
 
     public ArrayList<proceso> leerArchivo() throws IOException {
-        File archivo = new File("procesos.txt");// Lectura del archivo para ejecutar el programa
+        File archivo = new File("procesos.txt");// Lectura del archivo para poder ejecutar el programa
         FileReader lector = new FileReader(archivo);
         try (BufferedReader lectorBuffer = new BufferedReader(lector)) {
             String linea;
